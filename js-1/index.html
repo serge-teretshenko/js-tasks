@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Program 1</title>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+			integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+		    crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function(){
+
+			var one = 0, two = 0, sum = 0;
+
+			one = prompt('Введите первое число');
+			two = prompt('Введите второе число');
+			
+			function countSum(a, b){
+				return parseInt(a) + parseInt(b);
+			};	
+
+			alert('Сумма = ' + countSum (one, two));
+
+		});
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
